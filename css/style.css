@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row, .radiobutton-row{
+    background-color: lightcoral;
+    width: 100%;
+}
+
+header .row {
+    height: 50px;
+    display: flex;
+}
+
+.col-50 {
+    background-color: crimson;
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+.jumbotron {
+    background-color: bisque;
+    width: 100%;
+    height: 500px;
+}
+
+.container-70 {
+    background-color: aquamarine;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-70 .row {
+    display: flex;
+}
+
+.container-70 .row:first-child {
+    height: 30%;
+    background-color: green;
+}
+
+.container-70 .row:last-child {
+    height: 70%;
+    background-color: blue;
+}
+
+.col-35 {
+    width: 35%;
+    height: 100%;
+    background-color: pink;
+}
+
+.col-65 {
+    width: 65%;
+    height: 100%;
+    background-color: violet;
+
+}
+
+.container-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-60 .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-30 {
+    width: 30%;
+    height: 500px;
+    background-color: burlywood;
+}
+
+.card-row .col-30 {
+    height: 200px;
+}
+
+.col-100 {
+    width: 100%;
+    height: 200px;
+    background-color: lightgreen;
+    margin-top: 50px;
+}
+
+.col-title {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.col-content {
+    width: 100%;
+    height: calc(100% - 30px);
+    border: 1px solid black;
+}
+
+.main-img {
+    height: 350px;
+}
+
+.card-row {
+    height: 250px;
+}
+
+.logo-row {
+    height: 300px;
+    display: flex;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: aqua;
+}
+
+.inside-logo-row {
+    height: 50%;
+    width: 100%;
+    background-color: darkmagenta;
+    display: flex;
+}
+
+.main-logo {
+    background-color: gray;
+    height: 100%;
+}
+
+.try-row {
+    height: 150px;
+}
+
+.try-row .container-60 {
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+}
+
+.FAQ {
+    height: 400px;
+}
+
+.FAQ .row {
+    height: 25%;
+    display: flex;
+}
+
+.col-90 {
+    width: 90%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.col-10 {
+    width: 10%;
+    height: 100%;
+    background-color: brown;
+}
+
+.col-20 {
+    height: 100%;
+    width: 20%;
+    background-color: cornflowerblue;
+}
+
+footer {
+    height: 450px;
+}
+
+.footer-row {
+    height: 300px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+}
+
+.container-70 .col-10 {
+    height: 150px;
+}
