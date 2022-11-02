@@ -183,3 +183,27 @@ footer {
 .container-70 .col-10 {
     height: 150px;
 }
+
+.col-100 .col-content {
+    display: flex;
+}
+
+/* fine struttura */
+
+.col-50 span {
+   padding: 10px;
+}
+
+header .row .col-50:last-child {
+    display: flex;
+    justify-content: end;
+}
+
+header .row .col-50 {
+    display: flex;
+    align-items: center;
+}
+
+.col-65 img  {
+    width: 100%;
+}
