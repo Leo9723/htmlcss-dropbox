@@ -11,27 +11,23 @@
 }
 
 header .row {
-    height: 50px;
     display: flex;
 }
 
 .col-50 {
     background-color: crimson;
     border: 1px solid black;
-    height: 100%;
     width: 50%;
 }
 
 .jumbotron {
     background-color: bisque;
     width: 100%;
-    height: 500px;
 }
 
 .container-70 {
     background-color: aquamarine;
     width: 70%;
-    height: 100%;
     margin: 0 auto;
 }
 
@@ -40,24 +36,20 @@ header .row {
 }
 
 .container-70 .row:first-child {
-    height: 30%;
     background-color: green;
 }
 
 .container-70 .row:last-child {
-    height: 70%;
     background-color: blue;
 }
 
 .col-35 {
     width: 35%;
-    height: 100%;
     background-color: pink;
 }
 
 .col-65 {
     width: 65%;
-    height: 100%;
     background-color: violet;
 
 }
@@ -74,49 +66,32 @@ header .row {
 
 .col-30 {
     width: 30%;
-    height: 500px;
     background-color: burlywood;
-}
-
-.card-row .col-30 {
-    height: 200px;
 }
 
 .col-100 {
     width: 100%;
-    height: 200px;
     background-color: lightgreen;
     margin-top: 50px;
 }
 
 .col-title {
     width: 100%;
-    height: 30px;
     border: 1px solid black;
 }
 
 .col-content {
     width: 100%;
-    height: calc(100% - 30px);
+    min-height: 820px;
     border: 1px solid black;
 }
 
-.main-img {
-    height: 350px;
-}
-
-.card-row {
-    height: 250px;
-}
-
 .logo-row {
-    height: 300px;
     display: flex;
 }
 
 .col-33 {
     width: calc(100% / 3);
-    height: 100%;
     background-color: aqua;
 }
 
@@ -132,56 +107,34 @@ header .row {
     height: 100%;
 }
 
-.try-row {
-    height: 150px;
-}
-
 .try-row .container-60 {
     background-color: aqua;
-    height: 100%;
     display: flex;
 }
 
-.FAQ {
-    height: 400px;
-}
-
 .FAQ .row {
-    height: 25%;
     display: flex;
 }
 
 .col-90 {
     width: 90%;
-    height: 100%;
     background-color: blanchedalmond;
 }
 
 .col-10 {
     width: 10%;
-    height: 100%;
     background-color: brown;
 }
 
 .col-20 {
-    height: 100%;
     width: 20%;
     background-color: cornflowerblue;
 }
 
-footer {
-    height: 450px;
-}
-
 .footer-row {
-    height: 300px;
     width: 100%;
     background-color: bisque;
     display: flex;
-}
-
-.container-70 .col-10 {
-    height: 150px;
 }
 
 .col-100 .col-content {
@@ -190,8 +143,12 @@ footer {
 
 /* fine struttura */
 
+header .col-50 {
+    padding: 10px;
+}
+
 .col-50 span {
-   padding: 10px;
+   padding: 15px;
 }
 
 header .row .col-50:last-child {
@@ -212,3 +169,109 @@ header .row .col-50 {
     width: 50%;
 }
 
+button {
+    padding: 8px 10px;
+}
+
+.blue-button {
+    background-color: #0061FF;
+    color: white;
+    border: none;
+}
+
+.grey-button {
+    border-radius: none;
+}
+
+header {
+    font-size: small;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 40px 0px;
+}
+
+.jumbotron p, .jumbotron .deny {
+    font-size: small;
+    line-height: 1.5;
+}
+
+.col-35 .blue-button {
+    margin: 30px 0px;
+}
+
+.deny {
+    margin-bottom: 50px;
+}
+
+.col-35 span i {
+    font-size: 50px;
+}
+
+.col-content {
+    font-size: small;
+    line-height: 1.3;
+    padding: 20px;
+}
+
+.col-content i {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px 0px;
+}
+
+.col-content li div {
+    margin-left: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+h3 {
+    font-size: large;
+}
+
+.prezzo {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.periodo {
+    margin-bottom: 40px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.radiobutton-row {
+    padding: 30px 0px;
+}
+
+.col-title {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.main-list-item {
+    font-weight: bold;
+}
+
+.blue-check {
+    color: #0061FF;
+}
+
+.col-content .blue-button {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.short-hr {
+    width: 30%;
+    margin: 40px 0px;
+    
+}
