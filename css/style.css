@@ -6,7 +6,6 @@
 }
 
 .row, .radiobutton-row{
-    background-color: lightcoral;
     width: 100%;
 }
 
@@ -15,18 +14,16 @@ header .row {
 }
 
 .col-50 {
-    background-color: crimson;
-    border: 1px solid black;
+    background-color: white;
     width: 50%;
 }
 
 .jumbotron {
-    background-color: bisque;
+    background-color: #B4D0E7;
     width: 100%;
 }
 
 .container-70 {
-    background-color: aquamarine;
     width: 70%;
     margin: 0 auto;
 }
@@ -35,23 +32,12 @@ header .row {
     display: flex;
 }
 
-.container-70 .row:first-child {
-    background-color: green;
-}
-
-.container-70 .row:last-child {
-    background-color: blue;
-}
-
 .col-35 {
     width: 35%;
-    background-color: pink;
 }
 
 .col-65 {
     width: 65%;
-    background-color: violet;
-
 }
 
 .container-60 {
@@ -66,12 +52,10 @@ header .row {
 
 .col-30 {
     width: 30%;
-    background-color: burlywood;
 }
 
 .col-100 {
     width: 100%;
-    background-color: lightgreen;
     margin-top: 50px;
 }
 
@@ -96,14 +80,12 @@ header .row {
 .col-33 {
     width: calc(100% / 3);
     aspect-ratio: 1/1;
-    background-color: aqua;
 }
 
 
 .inside-logo-row {
     height: 50%;
     width: 100%;
-    background-color: darkmagenta;
     display: flex;
 }
 
@@ -113,7 +95,6 @@ header .row {
 }
 
 .try-row .container-60 {
-    background-color: aqua;
     display: flex;
 }
 
@@ -123,22 +104,18 @@ header .row {
 
 .col-90 {
     width: 90%;
-    background-color: blanchedalmond;
 }
 
 .col-10 {
     width: 10%;
-    background-color: brown;
 }
 
 .col-20 {
     width: 20%;
-    background-color: cornflowerblue;
 }
 
 .footer-row {
     width: 100%;
-    background-color: bisque;
     display: flex;
 }
 
@@ -166,7 +143,7 @@ header .row .col-50 {
     align-items: center;
 }
 
-.col-65 img, .col-30 img, .inside-logo-row .col-50 img  {
+.col-30 img, .col-65 img, .inside-logo-row .col-50 img  {
     width: 100%;
 }
 
@@ -288,6 +265,10 @@ h3 {
     margin-bottom: 25px;
 }
 
+.col-100 {
+    margin-bottom: 150px;
+}
+
 .col-100 .blue-button {
     margin-top: 0;
     margin-left: 65px;
@@ -321,6 +302,7 @@ h3 {
 .main-logo {
     padding: 20px;
     font-size: small;
+    background-color: #F5F5F5;
 }
 
 .main-logo p {
@@ -333,36 +315,36 @@ h3 {
 }
 
 .green {
-    background-color: green;
-    border: 5px solid lightgreen;
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 
 .bordeaux {
-    background-color: rgb(105, 5, 5);
+    background-color: #61082B;
 }
 
 .skyblue {
-    background-color: skyblue;
+    background-color: #0093CE;
 }
 
 .red {
-    background-color: red;
+    background-color: #FF1C1C;
 }
 
 .heavyred {
-    background-color: rgb(175, 4, 4);
+    background-color: #D5001F;
 }
 
 .lightskyblue {
-    background-color: lightskyblue;
+    background-color: #B4D0E7;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #0D2481;
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #FFD830;
 }
 
 .try-row h2 {
@@ -396,8 +378,34 @@ h3 {
 
 footer .col-10{
     color: white;
+    position: relative;
+    left: 30px;
 }
 
 .lingua {
     padding: 30px 0px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer li {
+    font-size: small;
+}
+
+footer .main-list-item {
+    font-size: larger;
+}
+
+.row-container {
+    background-color: #B4D0E7;
+    padding: 50px 0px;
+}
+
+.jumbotron .col-65 img {
+    scale: 1.2;
+    position: relative;
+    top: 35px;
+    left: 40px;
 }
