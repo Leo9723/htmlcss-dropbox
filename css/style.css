@@ -9,13 +9,12 @@
     width: 100%;
 }
 
-header .row {
+header .row, .container-70 .row, .container-60 .row, .logo-row, .inside-logo-row, .FAQ .row, .try-row .container-60, .col-100 .col-content, .footer-row, header .row .col-50, header .row .col-50:last-child, .logo-row .col-50, .try-row .col-35 {
     display: flex;
 }
 
 .col-50 {
     background-color: white;
-    width: 50%;
 }
 
 .jumbotron {
@@ -25,10 +24,6 @@ header .row {
 .container-70 {
     width: 70%;
     margin: 0 auto;
-}
-
-.container-70 .row {
-    display: flex;
 }
 
 .col-35 {
@@ -45,11 +40,10 @@ header .row {
 }
 
 .container-60 .row {
-    display: flex;
     justify-content: space-between;
 }
 
-.col-30 {
+.col-30, .short-hr {
     width: 30%;
 }
 
@@ -69,10 +63,6 @@ header .row {
     border: 1px solid black;   
 }
 
-.logo-row {
-    display: flex;
-}
-
 .col-33 {
     width: calc(100% / 3);
     aspect-ratio: 1/1;
@@ -81,20 +71,11 @@ header .row {
 
 .inside-logo-row {
     height: 50%;
-    display: flex;
 }
 
 .main-logo {
     background-color: gray;
     height: 100%;
-}
-
-.try-row .container-60 {
-    display: flex;
-}
-
-.FAQ .row {
-    display: flex;
 }
 
 .col-90 {
@@ -109,14 +90,6 @@ header .row {
     width: 20%;
 }
 
-.footer-row {
-    display: flex;
-}
-
-.col-100 .col-content {
-    display: flex;
-}
-
 /* fine struttura */
 
 header .col-50 {
@@ -128,16 +101,14 @@ header .col-50 {
 }
 
 header .row .col-50:last-child {
-    display: flex;
     justify-content: end;
 }
 
-header .row .col-50 {
-    display: flex;
+header .row .col-50, header .row .col-50:last-child {
     align-items: center;
 }
 
-.main-logo img {
+.main-logo img, .col-50 {
     width: 50%;
 }
 
@@ -245,7 +216,6 @@ h3 {
 }
 
 .short-hr {
-    width: 30%;
     margin: 40px 0px;  
 }
 
@@ -284,7 +254,6 @@ h3 {
 }
 
 .logo-row .col-50 {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -293,6 +262,7 @@ h3 {
     padding: 20px;
     font-size: small;
     background-color: #F5F5F5;
+    background-size: cover;
 }
 
 .main-logo p {
@@ -343,7 +313,6 @@ h3 {
 }
 
 .try-row .col-35 {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
