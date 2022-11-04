@@ -53,6 +53,9 @@ header .row, .container-70 .row, .container-60 .row, .logo-row, .inside-logo-row
 
 .col-title {
     border: 1px solid black;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: none;
 }
 
 .col-30 .col-content {
@@ -60,7 +63,10 @@ header .row, .container-70 .row, .container-60 .row, .logo-row, .inside-logo-row
 }
 
 .col-content {
-    border: 1px solid black;   
+    border: 1px solid black;
+    font-size: small;
+    line-height: 1.3;
+    padding: 15px;   
 }
 
 .col-33 {
@@ -104,7 +110,7 @@ header .row .col-50:last-child {
     justify-content: end;
 }
 
-header .row .col-50, header .row .col-50:last-child {
+header .row .col-50, header .row .col-50:last-child, .logo-row .col-50, .try-row .col-35 {
     align-items: center;
 }
 
@@ -120,12 +126,40 @@ button {
     background-color: #0061FF;
     color: white;
     border: none;
+    transition: all 0.5s;
+}
+
+.blue-button:hover {
+    scale: 1.12;
+}
+
+.blue-button:active {
+    background-color: white;
+    border: 1px solid #0061FF;
+    color: #0061FF;
 }
 
 .grey-button {
     border-radius: none;
     border: 1px solid black;
     background-color: transparent;
+}
+
+.blue-hover {
+    transition: all 0.5s;
+}
+
+.blue-hover:hover {
+    scale: 1.12;
+}
+
+.blue-hover:active {
+    background-color: #0061FF;
+    color: white;
+}
+
+.center-button {
+ width: 100%;
 }
 
 header {
@@ -152,12 +186,6 @@ h1 {
 
 .col-35 span i {
     font-size: 50px;
-}
-
-.col-content {
-    font-size: small;
-    line-height: 1.3;
-    padding: 20px;
 }
 
 .col-content i {
@@ -195,11 +223,6 @@ h3 {
 
 .radiobutton-row {
     padding: 30px 0px;
-}
-
-.col-title {
-    padding: 10px 0px;
-    text-align: center;
 }
 
 .main-list-item {
@@ -253,9 +276,8 @@ h3 {
     line-height: 150px;
 }
 
-.logo-row .col-50 {
+.logo-row .col-50, .try-row .col-35 {
     justify-content: center;
-    align-items: center;
 }
 
 .main-logo {
@@ -310,11 +332,6 @@ h3 {
 .try-row h2 {
     margin-bottom: 10px;
     color: rgb(91, 1, 52);
-}
-
-.try-row .col-35 {
-    justify-content: center;
-    align-items: center;
 }
 
 .try-row button {
