@@ -5,6 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbotron a {
+    color: black;
+}
+
 .row, .radiobutton-row, .jumbotron, .col-100, .col-title, .col-30 .col-content, .inside-logo-row, .footer-row, .col-30 img, .col-65 img, .inside-logo-row .col-50 img {
     width: 100%;
 }
